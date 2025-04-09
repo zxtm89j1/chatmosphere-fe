@@ -17,8 +17,8 @@ function Navbar() {
        </div>
 
        <div className='flex gap-5 items-center'>
-        <button className="border-1 border-solid">Sign Up</button>
-        <button>Log In</button>
+        <button className="border-1 border-solid px-4 py-2 rounded-md border-[#cccdcd] text-[#2d172f] font-roboto-condensed">Sign Up</button>
+        <button className="border-1 border-solid px-4 py-2 rounded-md border-[#cccdcd] text-[#2d172f] font-roboto-condensed">Log In</button>
        </div>
     </div>
   )
