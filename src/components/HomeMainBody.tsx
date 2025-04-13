@@ -1,5 +1,6 @@
 import React from "react";
 import mainStyles from "../../public/assets/styles/mainStyles";
+import Image from "next/image";
 
 export default function HomeMainBody() {
   return (
@@ -22,9 +23,35 @@ export default function HomeMainBody() {
       </div>
 
       <div className="flex justify-evenly w-full">
-        <div>DIV 1</div>
-        <div>DIV 2</div>
-        <div>DIV 3</div>
+        <div className="bg-white border-1 border-[#9966CC] rounded-md px-6 py-4 flex gap-10 justify-center min-w-sm">
+          <Image
+            src="/assets/images/message.png"
+            width={20}
+            height={20}
+            alt="message-exchange"
+          />
+          <div>Real-Time Messaging</div>
+        </div>
+
+        <div className="bg-white border-1 border-[#9966CC] rounded-md px-6 py-4 flex gap-10 justify-center min-w-sm">
+          <Image
+            src="/assets/images/group-icon.png"
+            width={20}
+            height={20}
+            alt="message-exchange"
+          />
+          <div>Group Chats</div>
+        </div>
+
+        <div className="bg-white border-1 border-[#9966CC] rounded-md px-6 py-4 flex gap-10 justify-center min-w-sm">
+          <Image
+            src="/assets/images/bell.png"
+            width={20}
+            height={20}
+            alt="message-exchange"
+          />
+          <div>Notifications</div>
+        </div>
       </div>
     </div>
   );
