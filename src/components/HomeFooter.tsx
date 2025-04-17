@@ -2,7 +2,7 @@ import React from "react";
 
 function HomeFooter() {
   return (
-    <div>
+    <div className="flex">
       <div>
         <div>Contact Us</div>
         <div>Email: contact@connectchat.com</div>
